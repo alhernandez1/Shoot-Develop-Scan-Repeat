@@ -5,7 +5,7 @@
 
 .top, .header-1{
     display: flex;
-    justify-content: space-betweeqn;
+    justify-content: space-between;
 }
 
 .logo {
