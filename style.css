@@ -1,3 +1,7 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
 .header {
     background-color: #1F2937;
     padding-bottom: 50px;
@@ -14,12 +18,16 @@
     display: flex;
     padding: 0px;
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .head-img {
     display: flex;
     margin-right: 50px;
+}
+
+.head-img img {
+    border-radius: 4px;
 }
 
 .head-div h1 {
@@ -42,8 +50,9 @@
     list-style-type: none;
     display: flex;
     gap: 25px;
-    padding: 0px;
     margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .head-div button {
